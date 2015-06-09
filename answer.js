@@ -10,11 +10,6 @@ function Matrix(arr1)
 	}*/
 
 }
-Matrix.prototype.copy=function(mat)
-{
-	var MatrixCopy=this;
-	return MatrixCopy;
-}
 Matrix.prototype.add=function(mat)
 { 
 	var i,j;
@@ -67,6 +62,4 @@ console.log(Matrix1.matrx.length);
 console.log(typeof(Matrix1.matrx));
 console.log(Matrix1.add(Matrix2));
 console.log(Matrix1.multiplication(Matrix2));
-console.log(Matrix1.copy().add(Matrix2));
-console.log(Matrix1.copy().multiplication(Matrix2));
  
